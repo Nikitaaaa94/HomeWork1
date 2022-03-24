@@ -1,17 +1,16 @@
 public class HomeWork1 {
-    //
-    //
-    //
-    public static void main(String[] args) {
+     public static void main(String[] args) {
         printThreeWords();
+        checkSumSign();
+        printColor();
         compareNumbers();
     }
-    public static void printThreeWords() {
+     static void printThreeWords() {
         System.out.println("Orange");
         System.out.println("Banana");
         System.out.println("Apple");
     }
-    public static void checkSumSign() {
+     static void checkSumSign() {
         int a = 2, b = 4;
         if(a + b >= 0) {
             System.out.println("Сумма положительная");
@@ -20,7 +19,7 @@ public class HomeWork1 {
             System.out.println("Сумма отрицательная");
         }
     }
-    public static void printColor() {
+     static void printColor() {
         int value = 50;
         if (value <= 0) {
             System.out.println("Красный");
@@ -32,7 +31,7 @@ public class HomeWork1 {
             System.out.println("Зеленный");
         }
     }
-    public static void compareNumbers() {
+     static void compareNumbers() {
         int a = 3,b = 4;
         if ( a >= b) {
             System.out.println("a>=b");
@@ -41,5 +40,4 @@ public class HomeWork1 {
             System.out.println("a<b");
         }
     }
-}    
-        
+}  
