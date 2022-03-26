@@ -5,11 +5,13 @@ public class HomeWork1 {
         printColor();
         compareNumbers();
     }
+    
      static void printThreeWords() {
         System.out.println("Orange");
         System.out.println("Banana");
         System.out.println("Apple");
     }
+    
      static void checkSumSign() {
         int a = 2, b = 4;
         if(a + b >= 0) {
@@ -19,6 +21,7 @@ public class HomeWork1 {
             System.out.println("Сумма отрицательная");
         }
     }
+    
      static void printColor() {
         int value = 50;
         if (value <= 0) {
@@ -31,7 +34,8 @@ public class HomeWork1 {
             System.out.println("Зеленный");
         }
     }
-     static void compareNumbers() {
+    
+    static void compareNumbers() {
         int a = 3,b = 4;
         if ( a >= b) {
             System.out.println("a>=b");
